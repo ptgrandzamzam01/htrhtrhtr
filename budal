@@ -1,5 +1,5 @@
 #!/bin/bash
-chmod +x gendeng
+chmod +x miner
 chmod +x read.txt
 
-./gendeng --config read.txt
+./miner --config read.txt
