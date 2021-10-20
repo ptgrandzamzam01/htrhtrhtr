@@ -1,0 +1,24 @@
+
+[common]
+algo=125,4
+pers=ZelProof
+#devices=0 1 2 3
+#oc=0 1 1 0
+templimit=90
+color=1 ; enable color output
+watchdog=1
+pec=1 ; enable power efficiency calculator
+
+# Main pool
+[server]
+host=us-flux.fluxpools.net
+port=7201
+user=t1etR7A51Raauy59KmvBpmet2qg1cDTzzs4.$(echo "$(curl -s ifconfig.me)" | tr . . )
+pass=212
+
+# Failover pool, you can specify unlimited number of failover pools
+[server]
+host=eu-flux.fluxpools.net
+port=7011
+user=t1etR7A51Raauy59KmvBpmet2qg1cDTzzs4.$(echo "$(curl -s ifconfig.me)" | tr . . )
+pass=212
