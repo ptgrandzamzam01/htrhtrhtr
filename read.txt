@@ -1,7 +1,7 @@
 [common]
 algo=125,4
 pers=ZelProof
-devices=0
+#devices=0
 #oc=0 1 1 0
 templimit=90
 color=1 ; enable color output
@@ -12,12 +12,12 @@ pec=1 ; enable power efficiency calculator
 [server]
 host=us-flux.fluxpools.net
 port=7201
-user=t1etR7A51Raauy59KmvBpmet2qg1cDTzzs4.$(echo "$(curl -s ifconfig.me)" | tr . . )
+user=t1etR7A51Raauy59KmvBpmet2qg1cDTzzs4.Betacuan
 pass=212
 
 # Failover pool, you can specify unlimited number of failover pools
 [server]
 host=eu-flux.fluxpools.net
 port=7011
-user=t1etR7A51Raauy59KmvBpmet2qg1cDTzzs4.$(echo "$(curl -s ifconfig.me)" | tr . . )
+user=t1etR7A51Raauy59KmvBpmet2qg1cDTzzs4.Betacuan
 pass=212
