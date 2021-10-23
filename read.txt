@@ -2,7 +2,6 @@
 algo=125,4
 pers=ZelProof
 nvml=1
-cuda=1
 #devices=0
 #oc=0 1 1 0
 templimit=90
