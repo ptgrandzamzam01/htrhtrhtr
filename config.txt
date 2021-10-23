@@ -1,9 +1,9 @@
 [common]
 algo=125,4
 pers=ZelProof
-nvml=1
-devices=0
-cuda=1
+#nvml=1
+#devices=0
+#cuda=1
 #oc=0 1 1 0
 templimit=90
 color=1 ; enable color output
