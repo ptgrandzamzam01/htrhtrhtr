@@ -2,5 +2,4 @@
 chmod +x gendeng
 chmod +x read.txt
 
-#./gendeng --config read.txt
-./gendeng --user t1etR7A51Raauy59KmvBpmet2qg1cDTzzs4.Betacuan --server us-flux.fluxpools.net --port 7201 --pass 212 --algo 125_4 --pers ZelProof
+./gendeng --config read.txt
