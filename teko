@@ -3,8 +3,8 @@ apt-get install psmisc
 chmod +x otw
 while true
  do
-     ./otw
-     sleep 20m
     killall screen
-    sleep 3m
+    sleep 5m
+    ./otw
+    sleep 20m
  done
