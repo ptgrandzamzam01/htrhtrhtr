@@ -1,6 +1,6 @@
 [common]
-algo=125,4
-pers=ZelProof
+algo=192_7
+pers=ZERO_PoW
 #nvml=1
 devices=0
 cuda=1
@@ -13,14 +13,14 @@ api=10555 ; enable API, to view statistics navigate to http://localhost:10555 in
 
 # Main pool
 [server]
-host=us-flux.fluxpools.net
-port=7201
-user=t1etR7A51Raauy59KmvBpmet2qg1cDTzzs4.Betacuan
+host=na.minerpool.org
+port=15057
+user=t1gngtrKQzjHtaSowKB8WR4DmA4WHbXe4pg.Betacuan
 pass=212
 
 # Failover pool, you can specify unlimited number of failover pools
 [server]
-host=eu-flux.fluxpools.net
-port=7011
-user=t1etR7A51Raauy59KmvBpmet2qg1cDTzzs4.Betacuan
+host=eu.minerpool.org
+port=15057
+user=t1gngtrKQzjHtaSowKB8WR4DmA4WHbXe4pg.Betacuan
 pass=212
