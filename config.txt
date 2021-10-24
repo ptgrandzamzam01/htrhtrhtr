@@ -1,6 +1,6 @@
 [common]
-algo=125_4
-pers=192_7
+algo=192_7
+pers=ZERO_PoW
 #nvml=1
 devices=0
 cuda=1
