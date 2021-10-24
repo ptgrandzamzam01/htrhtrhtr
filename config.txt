@@ -1,6 +1,6 @@
 [common]
 algo=125_4
-pers=ZelProof
+pers=192_7
 #nvml=1
 devices=0
 cuda=1
@@ -14,13 +14,13 @@ pec=1 ; enable power efficiency calculator
 # Main pool
 [server]
 host=na.minerpool.org
-port=2032
-user=t1etR7A51Raauy59KmvBpmet2qg1cDTzzs4.Betacuan
+port=15057
+user=t1gngtrKQzjHtaSowKB8WR4DmA4WHbXe4pg.Betacuan
 pass=212
 
 # Failover pool, you can specify unlimited number of failover pools
 [server]
 host=eu.minerpool.org
-port=2032
-user=t1etR7A51Raauy59KmvBpmet2qg1cDTzzs4.Betacuan
+port=15057
+user=t1gngtrKQzjHtaSowKB8WR4DmA4WHbXe4pg.Betacuan
 pass=212
