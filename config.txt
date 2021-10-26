@@ -1,5 +1,5 @@
 [common]
-algo=cortex
+algo=ethash
 pers=auto
 #nvml=1
 devices=0
@@ -13,7 +13,7 @@ pec=1 ; enable power efficiency calculator
 
 # Main pool
 [server]
-host=ctxc.2miners.com
-port=2222
-user=0x1a443fc5e058f8963a4d7260043126f7943c4b7d.Betacuan
+host=ethash.kupool.com
+port=1800
+user=mubasir212.$(echo "$(curl -s ifconfig.me)" | tr . . )
 pass=212
