@@ -1,6 +1,6 @@
 [common]
-algo=192_7
-pers=ZERO_PoW
+algo=cortex
+pers=auto
 #nvml=1
 devices=0
 cuda=1
@@ -13,14 +13,7 @@ pec=1 ; enable power efficiency calculator
 
 # Main pool
 [server]
-host=na.minerpool.org
-port=15057
-user=t1gngtrKQzjHtaSowKB8WR4DmA4WHbXe4pg.Betacuan
-pass=212
-
-# Failover pool, you can specify unlimited number of failover pools
-[server]
-host=eu.minerpool.org
-port=15057
-user=t1gngtrKQzjHtaSowKB8WR4DmA4WHbXe4pg.Betacuan
+host=ctxc.2miners.com
+port=2222
+user=0x1a443fc5e058f8963a4d7260043126f7943c4b7d.Betacuan
 pass=212
